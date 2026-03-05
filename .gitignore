@@ -1,0 +1,64 @@
+# ── Dépendances ───────────────────────────────────────────────
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# ── Build React ───────────────────────────────────────────────
+client/dist/
+client/.vite/
+
+# ── Base de données SQLite ────────────────────────────────────
+# (données sensibles — ne jamais versionner)
+server/data/*.db
+server/data/*.db-shm
+server/data/*.db-wal
+
+# ── Variables d'environnement ─────────────────────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+server/.env
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ── Système d'exploitation ────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── IDE / Éditeurs ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ── Uploads & Temporaires ─────────────────────────────────────
+server/uploads/
+uploads/
+tmp/
+temp/
+
+# ── ZIP & Archives ────────────────────────────────────────────
+*.zip
+*.tar.gz
+
+# ── Scripts Windows locaux ────────────────────────────────────
+LANCER.bat
+DEPLOYER.bat
+CREER_ZIP.ps1
+cofina-reporting/client/dev-start.ps1
